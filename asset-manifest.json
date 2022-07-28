@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/crionsas/lpp.git/static/css/main.9f0814bb.css",
+    "main.js": "/crionsas/lpp.git/static/js/main.7f6f7f61.js",
+    "static/js/787.e5f26282.chunk.js": "/crionsas/lpp.git/static/js/787.e5f26282.chunk.js",
+    "index.html": "/crionsas/lpp.git/index.html",
+    "main.9f0814bb.css.map": "/crionsas/lpp.git/static/css/main.9f0814bb.css.map",
+    "main.7f6f7f61.js.map": "/crionsas/lpp.git/static/js/main.7f6f7f61.js.map",
+    "787.e5f26282.chunk.js.map": "/crionsas/lpp.git/static/js/787.e5f26282.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.9f0814bb.css",
+    "static/js/main.7f6f7f61.js"
+  ]
+}
