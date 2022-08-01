@@ -3,3 +3,12 @@
 @tailwind utilities;
 
 
+@layer base {
+    body{
+    @apply 
+    bg-gray-200
+    }
+}
+
+
+.slick-slide>div {padding: 0 10px;}
