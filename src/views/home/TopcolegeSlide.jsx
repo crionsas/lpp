@@ -53,13 +53,14 @@ function TopcolegeSlide() {
                                     src="https://www.collegesearch.in/upload/institute/images/large/190326050543_735961-iim-a-020718.jpg.pagespeed.ce.S7_QIBI6J3.jpg"
                                     alt="" />
                                 <div className='p-2 space-y-1'>
-                                    <div className='flex justify-between'>
+                                    <div className='flex justify-between space-x-2'>
                                         <strong className='font-medium'>Indian Institute of Management</strong>
                                         <div>
-                                            {Array(5).fill().map((_, i) => (
+                                            {/* {Array(5).fill().map((_, i) => (
                                                 <small>⭐</small>
-                                            ))}
-                                        </div>
+                                            ))} */}
+                                            <small>Private</small>
+                                            </div>
                                     </div>
                                     <small>Ahamdabad</small>
                                 </div>

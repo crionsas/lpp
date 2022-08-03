@@ -1,16 +1,13 @@
 import React, { useState } from 'react'
 import { MdEngineering, MdMore } from 'react-icons/md'
 import { Link } from 'react-router-dom'
-import Hero from '../components/Hero';
-import TopcolegeSlide from '../components/TopcolegeSlide';
+import Hero from './Hero';
+import TopcolegeSlide from './TopcolegeSlide'
 
 
 
 
 function Home() {
-    
-
-
     const [isOpen, setisOpen] = useState(false);
 
     const openClick = () => setisOpen(!isOpen)
