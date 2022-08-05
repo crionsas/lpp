@@ -21,7 +21,7 @@ function Home() {
             <div className='md:m-12 m-4 p-4 space-y-2 rounded-md bg-white'>
                 <strong className='text-2xl'>Choose a Course </strong>
                 <p>Search your college easily by selecting your course</p>
-                <div className="grid grid-cols-3 md:grid-cols-6 md:mx-14 text-white text-center">
+                <div className="grid grid-cols-3 md:grid-cols-6 lg:mx-14 text-white text-center">
                     {!isOpen ?
                         Array(5).fill().map((_, i) => (
                             <div className='m-2'>

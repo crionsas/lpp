@@ -6,7 +6,7 @@ import { FaTimes } from 'react-icons/fa'
 import { MdFilterListAlt } from 'react-icons/md'
 
 
-function Course() {
+function Exam() {
 
   const [filterOpen, setfilterOpen] = useState(true);
 
@@ -32,7 +32,7 @@ function Course() {
               </Link>
               <Link to='#'>
                 <div className='py-2 px-4 bg-primary text-white border border-b-white'>
-                  Course
+                  Exam
                 </div>
               </Link>
             </div>
@@ -43,7 +43,7 @@ function Course() {
                 {Array(20).fill().map((_, i) => (
                   <div className='flex space-x-2 m-2'>
                     <input type="checkbox" />
-                    <p className='truncate'>IIM Indian Course of Managementhjjhhghg</p>
+                    <p className='truncate'>IIM Indian Exam of Managementhjjhhghg</p>
                   </div>
                 ))}
               </div>
@@ -62,8 +62,8 @@ function Course() {
 
           {/* Heading */}
           <div className='w-full text-center bg-white shadow-sm rounded-md p-10 mb-8 space-y-3'>
-            <h1 className='font-bold text-gray-700 text-4xl'>Courses in India</h1>
-            <p className='font-bold text-gray-600'>List of Courses 1000</p>
+            <h1 className='font-bold text-gray-700 text-4xl'>Exams in India</h1>
+            <p className='font-bold text-gray-600'>List of Exams 1000</p>
           </div>
 
           {/* grid with Columns */}
@@ -81,7 +81,7 @@ function Course() {
                 <Filter title={'Course'} checkTitle={'B.Tech (Bachelor of Technology)'} />
                 <Filter title={'State'} checkTitle={'West Bengal'} />
                 <Filter title={'City'} checkTitle={'Kolkata'} />
-                <Filter title={'Course Type'} checkTitle={'Govt'} />
+                <Filter title={'Exam Type'} checkTitle={'Govt'} />
               </div>
             </div>
             <div className='lg:col-span-3 overflow-x-auto'>
@@ -118,4 +118,4 @@ function Course() {
   )
 }
 
-export default Course
+export default Exam
