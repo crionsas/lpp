@@ -6,7 +6,7 @@ import {Link} from 'react-router-dom'
 function Resultcard() {
     return (
         <>
-        <Link to='/'>
+        <Link to='/individual/info'>
             <div class="w-full lg:flex bg-white rounded-md shadow-sm hover:shadow-lg mt-6">
                 <div class="h-36 lg:h-auto lg:w-48 flex-none bg-cover rounded-t-md lg:rounded-t-none lg:rounded-l text-center overflow-hidden"
                     style={{ backgroundImage: 'url(https://www.collegesearch.in/upload/institute/images/large/190326050543_735961-iim-a-020718.jpg.pagespeed.ce.S7_QIBI6J3.jpg)' }}

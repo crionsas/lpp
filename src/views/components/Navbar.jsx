@@ -43,9 +43,9 @@ function Navbar() {
                     </Link>
                 </ul>
                 <div className='font-medium mx-4 border text-primary border-primary p-2 rounded-md'>
-                    <Link to='/'>
+                    <Link to='/signin'>
                         <span>
-                            SignUp/SignIn
+                            SignIn/SignUp
                         </span>
                     </Link>
                 </div>

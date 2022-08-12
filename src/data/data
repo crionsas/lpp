@@ -1,0 +1,330 @@
+// College
+
+{
+    "basicDetails":{
+        "name": "RR Institute Of Technology 5",
+        "code":"1RI5",
+        "estd":2008
+    },
+    "locationDetails":{
+        "address":"RR Layout, Chikkabanavara",
+        "street":"RR Layout",
+        "city":"Siliguri",
+        "district":"Siliguri",
+        "state":"West Bengal",
+        "location":{
+            "type":"Point",
+            "coordinates":[123,456]
+        }
+    },
+    "contactDetails":{
+        "siteUrl":"https://rrit.com",
+        "email":"rrit@rrinstitute.com",
+        "phone":123456789
+    },
+    "discipline":"Engineering and Technology",
+    "ownership":"Semi-Private",
+    "category":"University",
+    "type":"Autonomous",
+    "isWomen":false,
+    "campusArea":1,
+    "facultyStrength":200,
+    "studentStrength":5000,
+    "accreditation":[
+        {
+            "body":"naac",
+            "grade":"B+",
+            "validUpto":"2024"
+        },
+        {
+            "body":"nba",
+            "grade":"C+",
+            "validUpto":"2024"
+        }
+    ],
+    "ranking":[
+        {
+            "body":"Hostel Facility",
+            "rank":"4.3"
+        },
+        {
+            "body":"Teaching Quality",
+            "rank":"2.1"
+        }
+    ],
+    "programTypes":["undergraduate","postgraduate","diploma","phd"]   ,
+    "programs":{
+    "diploma":[
+        {
+            "name":"Aeronotic Engineering",
+            "short":"AE",
+            "type":"Engineering and Techcnology",
+            "yearOfStarting":"2008",
+            "qualification":["PUC","Diploma"],
+            "eligibility":["More Than 35% in Physics, Chemestry and Match"],
+            "fee":["140000Rs for 1st Year","80000Rs for 2nd Year","80000Rs for 3rd Year","80000Rs for 4th Year","Misc Fee 10000","Admission fee 1200","University Fee 6000","Total Amount 388200Rs"],
+            "admissionMode":["Direct","VITEEE","JEE"]
+        },
+        {
+            "name":"Electrical and Electronics Engineering",
+            "short":"EEE",
+            "type":"Engineering and Techcnology",
+            "yearOfStarting":"2008",
+            "qualification":["PUC","Diploma"],
+            "eligibility":["More Than 35% in Physics, Chemestry and Match"],
+            "fee":["140000Rs for 1st Year","80000Rs for 2nd Year","80000Rs for 3rd Year","80000Rs for 4th Year","Misc Fee 10000","Admission fee 1200","University Fee 6000","Total Amount 388200Rs"],
+            "admissionMode":["Direct","VITEEE","JEE"]
+        }
+    ],
+    "undergraduate":[
+        {
+            "name":"Aeronotic Engineering",
+            "short":"AE",
+            "type":"Engineering and Techcnology",
+            "yearOfStarting":"2008",
+            "qualification":["PUC","Diploma"],
+            "eligibility":["More Than 35% in Physics, Chemestry and Match"],
+            "fee":["140000Rs for 1st Year","80000Rs for 2nd Year","80000Rs for 3rd Year","80000Rs for 4th Year","Misc Fee 10000","Admission fee 1200","University Fee 6000","Total Amount 388200Rs"],
+            "admissionMode":["Direct","VITEEE","JEE"]
+        }
+    ],
+    "postgraduate":[
+        {
+            "name":"Aeronotic Engineering",
+            "short":"AE",
+            "type":"Engineering and Techcnology",
+            "yearOfStarting":"2008",
+            "qualification":["PUC","Diploma"],
+            "eligibility":["More Than 35% in Physics, Chemestry and Match"],
+            "fee":["140000Rs for 1st Year","80000Rs for 2nd Year","80000Rs for 3rd Year","80000Rs for 4th Year","Misc Fee 10000","Admission fee 1200","University Fee 6000","Total Amount 388200Rs"],
+            "admissionMode":["Direct","VITEEE","JEE"]
+        }
+    ],
+    "phd":[
+        {
+            "name":"Aeronotic Engineering",
+            "short":"AE",
+            "type":"Engineering and Techcnology",
+            "yearOfStarting":"2008",
+            "qualification":["PUC","Diploma"],
+            "eligibility":["More Than 35% in Physics, Chemestry and Match"],
+            "fee":["140000Rs for 1st Year","80000Rs for 2nd Year","80000Rs for 3rd Year","80000Rs for 4th Year","Misc Fee 10000","Admission fee 1200","University Fee 6000","Total Amount 388200Rs"],
+            "admissionMode":["Direct","VITEEE","JEE"]
+        }
+    ]
+},
+    "topCollegeRanking":{
+        "india":false,
+        "state":false,
+        "city":true
+    }
+}
+
+
+///SCHOOL
+
+{
+    "basicDetails":{
+        "name": "National Public School 2",
+        "code":"NPS2",
+        "estd":1999
+        },
+    "locationDetails":{
+        "address":"RR Layout, Chikkabanavara",
+        "street":"RR Layout",
+        "city":"Bangalore",
+        "district":"Bangalore",
+        "state":"Karnataka",
+        "location": {
+        "type": "Point",
+        "coordinates":[123,456]
+        }
+      },
+    "contactDetails":{
+        "siteUrl":"www.nps.com",
+        "email":"nps@nps.com",
+        "phone":1234567890
+        },
+    "board":"CBSE",
+    "ownership":"Private",
+    "stage":"Secondary",
+    "type":"Co-Education",
+    "campusArea":140,
+    "facultyStrength":40,
+    "studentStrength":2000,
+    "description":"this is school description",
+    "activities":["Seminars","Yoga"],
+    "news":[{
+        "title":"School Reopening",
+        "news":"This is to inform all the students that schools will be open from tomorrow 1/3/22"
+        }],
+    "blog":[{
+        "title":"Student Achivement",
+        "blog":"www.collegeurl.com/studentname/achivwement"
+    }],
+    "topSchool":true
+}
+
+
+
+///EXAM
+
+{
+    "name":"Vellore Institute of Technology Engineering Entrance Examination",
+    "short":"VITEEE",
+    "level":"State",
+    "year":2022,
+    "conductedBy":"Vellore Institute of Technology, Vellore - 632014, Tamil Nadu, India",
+    "admissionLevel":"Undergraduate",
+    "mode":["online","offline"],
+    "onlineModeCities":[
+        {
+        "city":"City1",
+        "zip":"zip1"
+        },
+        {
+        "city":"City2",
+        "zip":"zip2"
+        },
+        {
+        "city":"City3",
+        "zip":"zip3"
+        }
+    ],
+    "offlineModeCities":[
+        {
+        "city":"City1",
+        "zip":"zip1"
+        },
+        {
+        "city":"City2",
+        "zip":"zip2"
+        },
+        {
+        "city":"City3",
+        "zip":"zip3"
+        }
+    ],
+    "ageLimit":"22",
+    "totalSlots":"3",
+    "slotData":[
+        {
+        "slotNumber":1,
+        "startDate":"2022-02-10",
+        "endDate":"2022-02-15"
+        },
+        {
+        "slotNumber":2,
+        "startDate":"2022-02-20",
+        "endDate":"2022-02-25"
+        },
+        {
+        "slotNumber":3,
+        "startDate":"2022-02-26",
+        "endDate":"2022-02-28"
+        }
+    ],
+    "eligibity":["10+2"],
+    "totalStreams":"2",
+    "streamData":[
+        {
+        "streamNumber":1,
+        "eligibity":[
+            {
+            "subject":"Mathematics",
+            "marks":"40"
+            },
+            {
+            "subject":"Physics",
+            "marks":"35"
+            },
+            {
+            "subject":"Chemistry",
+            "marks":"35"
+            }
+        ],
+        "subjects":[
+            {
+            "subject":"Mathematics",
+            "noOfQuestion":"5",
+            "marksPerSubject":"20"
+            },
+            {
+            "subject":"Physics",
+            "noOfQuestion":"5",
+            "marksPerSubject":"20"
+            },
+            {
+            "subject":"Chemistry",
+            "noOfQuestion":"5",
+            "marksPerSubject":"20"
+            },
+            {
+            "subject":"English",
+            "noOfQuestion":"5",
+            "marksPerSubject":"20"
+            },
+            {
+            "subject":"Aptitude",
+            "noOfQuestion":"5",
+            "marksPerSubject":"20"
+            }
+        ]},
+
+        {
+        "streamNumber":2,
+        "eligibity":[
+            {
+            "subject":"Biology",
+            "marks":"40"
+            },
+            {
+            "subject":"Physics",
+            "marks":"35"
+            },
+            {
+            "subject":"Chemistry",
+            "marks":"35"
+            }
+        ],
+        "subjects":[
+            {
+            "subject":"Biology",
+            "noOfQuestion":"5",
+            "marksPerSubject":"20"
+            },
+            {
+            "subject":"Physics",
+            "noOfQuestion":"5",
+            "marksPerSubject":"20"
+            },
+            {
+            "subject":"Chemistry",
+            "noOfQuestion":"5",
+            "marksPerSubject":"20"
+            },
+            {
+            "subject":"English",
+            "noOfQuestion":"5",
+            "marksPerSubject":"20"
+            },
+            {
+            "subject":"Aptitude",
+            "noOfQuestion":"5",
+            "marksPerSubject":"20"
+            }
+        ]}
+    ],
+    "totalMarks":"100",
+    "totalTime":"90 - Minutes",
+    "resultData":[
+        {
+        "slotNumber":"String",
+        "resultDate":"Not available",
+        "link":"String"
+        }
+    ],
+    "admissionDate":"Not available",
+    "testLink":"String",
+    "topExam":true
+}

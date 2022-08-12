@@ -1,7 +1,11 @@
 import React from 'react'
 import Slider from 'react-slick';
 
+
+
+
 function TopcolegeSlide() {
+
 
     var settings = {
         infinite: true,
@@ -39,14 +43,15 @@ function TopcolegeSlide() {
     };
 
     return (
-        <div>
-            <div className='md:m-12 m-4 p-4 space-y-2 rounded-md bg-white flex flex-col'>
+        <div className=''>
+            <div className='lg:m-6 m-4 p-4 space-y-2 rounded-md bg-white flex flex-col'>
                 <strong className='text-2xl'>Top Colleges</strong>
-                <p>Search your college easily by selecting your Location</p>
+                <p>Search your college easily by selecting</p>
 
                 <div>
-                    <Slider {...settings}>
+                    <Slider  {...settings} className='myclass'>
                         {Array(10).fill().map((_, i) => (
+                            <div className='px-2'>
                             <div className='max-w-sm overflow-hidden shadow-md rounded-md my-4'>
                                 <img
                                     className='shadow-lg rounded-md'
@@ -60,10 +65,11 @@ function TopcolegeSlide() {
                                                 <small>⭐</small>
                                             ))} */}
                                             <small>Private</small>
-                                            </div>
+                                        </div>
                                     </div>
                                     <small>Ahamdabad</small>
                                 </div>
+                            </div>
                             </div>
                         ))}
                     </Slider>
