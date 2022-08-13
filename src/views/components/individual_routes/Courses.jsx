@@ -7,7 +7,7 @@ function Courses() {
       <div className='max-w-[1440] w-full'>
         <div className='grid lg:grid-cols-4'>
           {/* grid 1 */}
-          <div className='col-span-3 m-4 space-y-4'>
+          <div className='col-span-3 m-2 lg:m-4 space-y-4'>
             <div className='bg-white'>
               <table class="table-auto w-full">
                 <thead className='text-left bg-primary text-white'>
@@ -44,56 +44,63 @@ function Courses() {
 
 
             <div className='bg-white'>
-              <div className='border-b m-4'>
-                <input className='w-full p-4'
+              <div className='border-b mx-6'>
+                <input className='w-full p-4 my-4 shadow-lg rounded-md'
                   type="text" placeholder='Search Courses' />
               </div>
 
               {/* Courses Cards */}
-              {Array(2).fill().map((_,i) => 
-              <div className='p-2 my-12 lg:mx-6 lg:p-6 rounded-md shadow-xl'>
-                <div className='flex justify-between'>
-                  <strong>Post Graduate Programme in Management (PGPM)</strong>
-                  <div className='flex flex-col text-end items-end'>
-                    <GrDocumentDownload size={24} />
-                    <small>Download Brocher</small>
+              {Array(2).fill().map((_, i) =>
+                <div className='p-2 my-12 lg:mx-6 lg:p-6 rounded-md shadow-xl'>
+                  <div className='flex justify-between'>
+                    <strong className='text-primary'>Post Graduate Programme in Management (PGPM)</strong>
+                    <div className='flex flex-col text-end items-end'>
+                      <GrDocumentDownload size={24} />
+                      <small>Download Brocher</small>
+                    </div>
                   </div>
-                </div>
-                <div className='font-semibold flex justify-between my-4 p-2 text-textgry'>
-                  <small>DURATION: 2 yr</small>
-                  <small>TOTALFEE: ₹23,00,000</small>
-                  <small>MODE: Regular</small>
-                </div>
-                <div className='mt-12'>
-                  <table class="table-auto w-full">
-                    <thead className='text-left bg-secondary text-white'>
-                      <tr>
-                        <th>Fees</th>
-                        <th>1st Year</th>
-                        <th>2nd Year</th>
-                      </tr>
-                    </thead>
-                    <tbody>
-                      <tr>
-                        <td>Tuition Fee</td>
-                        <td>₹23,00,000</td>
-                        <td>₹23,00,000</td>
-                      </tr>
-                      <tr>
-                        <td>Registration Fee</td>
-                        <td>₹23,00,000</td>
-                        <td>₹23,00,000</td>
-                      </tr>
-                      <tr>
-                        <td>Some Fee</td>
-                        <td>₹23,00,000</td>
-                        <td>₹23,00,000</td>
-                      </tr>
-                    </tbody>
-                  </table>
-                </div>
+                  <div className='flex justify-between'>
+                    <div className='font-semibold flex flex-col my-4 p-2 text-textgry'>
+                      <small>DURATION: 2 yr</small>
+                      <small>TOTALFEE: ₹23,00,000</small>
+                      <small>MODE: Regular</small>
+                    </div>
+                    <div className='font-semibold flex flex-col text-right my-4 p-2 text-textgry'>
+                      <small>TYPE: Management</small>
+                      <small>QUAL: CAR,MAT,XAT</small>
+                      <small>ELIG: Above 35% physics</small>
+                    </div>
+                  </div>
+                  <div className='mt-8'>
+                    <table class="table-auto w-full">
+                      <thead className='text-left bg-secondary text-white'>
+                        <tr>
+                          <th>Fees</th>
+                          <th>1st Year</th>
+                          <th>2nd Year</th>
+                        </tr>
+                      </thead>
+                      <tbody>
+                        <tr>
+                          <td>Tuition Fee</td>
+                          <td>₹23,00,000</td>
+                          <td>₹23,00,000</td>
+                        </tr>
+                        <tr>
+                          <td>Registration Fee</td>
+                          <td>₹23,00,000</td>
+                          <td>₹23,00,000</td>
+                        </tr>
+                        <tr>
+                          <td>Some Fee</td>
+                          <td>₹23,00,000</td>
+                          <td>₹23,00,000</td>
+                        </tr>
+                      </tbody>
+                    </table>
+                  </div>
 
-              </div>
+                </div>
               )}
             </div>
           </div>

@@ -7,7 +7,7 @@ function Info() {
         <div className='grid lg:grid-cols-4'>
 
           {/* grid 1 */}
-          <div className='col-span-3 m-4 space-y-4'>
+          <div className='col-span-3 m-2 lg:m-4 space-y-4'>
             <div className='w-full shadow-md'>
               <h1 className='bg-primary text-white p-4 font-bold'>About India Institute of Management</h1>
               <div className='text-textgry bg-white p-4 space-y-3'>
